@@ -1,0 +1,105 @@
+body {
+    background-color: #f3e5d8;
+}
+.recipe-background {
+    background-color: white;
+    height: auto;
+    width: 800px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    padding: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 25px;
+}
+#omelette {
+    height: 325px;
+    width: 800px;
+}
+.header-font{
+    font-family: "Young Serif", serif;
+}
+#simple {
+    color: #3c3b39;
+}
+#intro{
+    padding-bottom: 20px;
+}
+.content {
+    color: #898884;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#preparation{
+    background-color: #fff7fc;
+    border-radius: 25px;
+    padding: 5px;
+}
+#preparation-time{
+    color: #6a334a;
+    font-weight: 350;
+    padding-left: 20px;
+}
+#prep-list{
+    line-height: 2;
+}
+#ingredient-list{
+    padding-bottom: 10px;
+    line-height: 2;
+}
+.prep-bullet::marker{
+    color: #6a334a;
+}
+li {
+    padding-left: 10px;
+}
+#ingredients{
+    padding-left: 15px;
+    color: #7c442d;
+    font-size: 30px;
+    font-weight: 200;
+}
+.line-break{
+    border: 1px solid #e0e0e0;
+
+}
+.insbull{
+    margin-bottom: 20px;
+}
+.insbull::marker {
+    color: #7c442d;
+    font-weight: 700;
+}
+#insline{
+    margin-top: 35px;
+}
+#nuttext{
+    padding-left: 15px;
+}
+.nut-table{
+    border: 1px solid #e0e0e0;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-collapse: collapse;
+    padding-right: 185px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.info{
+    color: #7c442d;
+    font-weight: 700;
+    padding-right: 400px;
+}
+.foni{
+    font-weight: 500;
+}
+#fat{
+    border-bottom: hidden;
+    padding-bottom: 10px;
+}
